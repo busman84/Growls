@@ -1,0 +1,13 @@
+.growlPic{
+	background-image: url("../img/growler.png");
+	background-repeat: no-repeat;
+	height: 19em;
+	width:17em;
+	
+}
+
+.formPos{
+	position: relative;
+	top: 10.5em;
+	left:5em;
+}
