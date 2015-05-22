@@ -3,11 +3,26 @@
 	background-repeat: no-repeat;
 	height: 19em;
 	width:17em;
+	clear: both;
 	
 }
 
 .formPos{
 	position: relative;
-	top: 10.5em;
+	top: 8.5em;
 	left:5em;
+}
+
+.growlPos{
+	position: relative;
+	top: 6em;
+	left:6.5em;
+	color:white;
+}
+li{
+	position: relative;
+	float: left;
+	list-style-type: none;
+	display: inline;
+	margin: 10px;
 }
