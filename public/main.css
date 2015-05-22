@@ -3,6 +3,7 @@
 	background-repeat: no-repeat;
 	height: 19em;
 	width:17em;
+	clear: both;
 	
 }
 
@@ -18,7 +19,10 @@
 	left:6.5em;
 	color:white;
 }
-ul{
+li{
+	position: relative;
+	float: left;
 	list-style-type: none;
-	display: inline-block;
+	display: inline;
+	margin: 10px;
 }
