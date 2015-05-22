@@ -10,7 +10,7 @@
 .formPos{
 	position: relative;
 	top: 8.5em;
-	left:5em;
+	left:6em;
 }
 
 .growlPos{
@@ -20,9 +20,19 @@
 	color:white;
 }
 li{
+	right: 3em;
 	position: relative;
 	float: left;
 	list-style-type: none;
 	display: inline;
 	margin: 10px;
+	background-color: lightgray;
+	color: white;
+	padding: 10px;
+
+}
+
+li:hover {
+	background-color: lightblue;
+	transition: background-color ease .3;
 }
