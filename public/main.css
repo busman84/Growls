@@ -3,13 +3,14 @@
 	background-repeat: no-repeat;
 	height: 19em;
 	width:17em;
+	clear: both;
 	
 }
 
 .formPos{
 	position: relative;
 	top: 8.5em;
-	left:5em;
+	left:6em;
 }
 
 .growlPos{
@@ -18,11 +19,28 @@
 	left:6.5em;
 	color:white;
 }
-ul{
+li{
+	right: 3em;
+	position: relative;
+	float: left;
 	list-style-type: none;
+<<<<<<< HEAD
 	display: inline-block;
 }
 
 li{
 	float:left;
+=======
+	display: inline;
+	margin: 10px;
+	background-color: lightgray;
+	color: white;
+	padding: 10px;
+
+}
+
+li:hover {
+	background-color: lightblue;
+	transition: background-color ease .3;
+>>>>>>> 49c91190369c676fc4d7f440777c41aff10850d5
 }

@@ -1,6 +1,8 @@
 require "sinatra"
 require "sinatra/reloader"
 
+
+
 get '/' do
 	
 	# @growl = params[:growl]
@@ -12,6 +14,24 @@ post '/' do
 	@growl = params[:growl]
 
 	erb :index
+	
+end
+
+get '/login' do
+	
+	erb:login
+	
+end
+
+get '/growls' do
+	
+	erb:growls
+end
+
+get '/about' do
+	
+	erb:about
+	
 end
 
 # require 'sinatra'
@@ -36,5 +56,7 @@ end
 
 #     erb :index, :locals => {'greeting' => greeting, 'name' => name}
 # end
+
+
 
 
